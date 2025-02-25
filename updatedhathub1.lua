@@ -1247,10 +1247,10 @@ game:GetService("RunService").Heartbeat:Connect(function()
     Character["LavanderHair"].Handle.Velocity = jit
     Character["Pal Hair"].Handle.Velocity = jit
     Character["Pink Hair"].Handle.Velocity = jit
-    Character["MediHood"].Handle.Velocity = jit
+    Character["MeshPartAccessory"].Handle.Velocity = jit
 end)
 
-local Head = Character:WaitForChild("MediHood") --press f9 and find the hat that looks like a heads name and put it here
+local Head = "MeshPartAccessory" --press f9 and find the hat that looks like a heads name and put it here
 local x = -4   --Edit Position for head n +left and -Right
 local y = 0.2   --Edit Position for head up and down
 local z = 0 --Edit Position for head x3
