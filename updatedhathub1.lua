@@ -1230,7 +1230,7 @@ SexDoll.TextColor3 = Color3.fromRGB(0, 0, 0)
 SexDoll.TextSize = 30.000
 SexDoll.TextWrapped = true
 SexDoll.MouseButton1Down:connect(function()
-EquipHats("-gh 4904137145 4246228452 4911305457 4822592866 3992084515 14815761 48474294 63690008 62234425 451220849")
+EquipHats("-gh 4904153006 4246228452 4911305457 4822592866 3992084515 14815761 48474294 63690008 62234425 451220849")
 local tog = true
 local move = false
 local jit = Vector3.new(30,0,0)
@@ -1247,10 +1247,10 @@ game:GetService("RunService").Heartbeat:Connect(function()
     Character["LavanderHair"].Handle.Velocity = jit
     Character["Pal Hair"].Handle.Velocity = jit
     Character["Pink Hair"].Handle.Velocity = jit
-    Character["MeshPartAccessory"].Handle.Velocity = jit
+    Character["EmotimaskCute"].Handle.Velocity = jit
 end)
 
-local Head = "MeshPartAccessory" --press f9 and find the hat that looks like a heads name and put it here
+local Head = "EmotimaskCute" --press f9 and find the hat that looks like a heads name and put it here
 local x = -4   --Edit Position for head n +left and -Right
 local y = 0.2   --Edit Position for head up and down
 local z = 0 --Edit Position for head x3
