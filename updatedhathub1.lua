@@ -1250,7 +1250,7 @@ game:GetService("RunService").Heartbeat:Connect(function()
     Character["MediHood"].Handle.Velocity = jit
 end)
 
-local Head = "MediHood" --press f9 and find the hat that looks like a heads name and put it here
+local Head = Character:WaitForChild("MediHood") --press f9 and find the hat that looks like a heads name and put it here
 local x = -4   --Edit Position for head n +left and -Right
 local y = 0.2   --Edit Position for head up and down
 local z = 0 --Edit Position for head x3
